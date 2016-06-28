@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC56855E1D221C5400C73CE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56855D1D221C5400C73CE0 /* AppDelegate.swift */; };
+		EC5685601D221C5400C73CE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56855F1D221C5400C73CE0 /* ViewController.swift */; };
+		EC5685631D221C5400C73CE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5685611D221C5400C73CE0 /* Main.storyboard */; };
+		EC5685651D221C5400C73CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5685641D221C5400C73CE0 /* Assets.xcassets */; };
+		EC5685681D221C5400C73CE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5685661D221C5400C73CE0 /* LaunchScreen.storyboard */; };
+		EC5685731D221C5400C73CE0 /* TakeFodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5685721D221C5400C73CE0 /* TakeFodsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC56856F1D221C5400C73CE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5685521D221C5400C73CE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5685591D221C5400C73CE0;
+			remoteInfo = TakeFods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC56855A1D221C5400C73CE0 /* TakeFods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeFods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC56855D1D221C5400C73CE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC56855F1D221C5400C73CE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC5685621D221C5400C73CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC5685641D221C5400C73CE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC5685671D221C5400C73CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC5685691D221C5400C73CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC56856E1D221C5400C73CE0 /* TakeFodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeFodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5685721D221C5400C73CE0 /* TakeFodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeFodsTests.swift; sourceTree = "<group>"; };
+		EC5685741D221C5400C73CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC5685571D221C5400C73CE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC56856B1D221C5400C73CE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC5685511D221C5400C73CE0 = {
+			isa = PBXGroup;
+			children = (
+				EC56855C1D221C5400C73CE0 /* TakeFods */,
+				EC5685711D221C5400C73CE0 /* TakeFodsTests */,
+				EC56855B1D221C5400C73CE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC56855B1D221C5400C73CE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC56855A1D221C5400C73CE0 /* TakeFods.app */,
+				EC56856E1D221C5400C73CE0 /* TakeFodsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC56855C1D221C5400C73CE0 /* TakeFods */ = {
+			isa = PBXGroup;
+			children = (
+				EC56855D1D221C5400C73CE0 /* AppDelegate.swift */,
+				EC56855F1D221C5400C73CE0 /* ViewController.swift */,
+				EC5685611D221C5400C73CE0 /* Main.storyboard */,
+				EC5685641D221C5400C73CE0 /* Assets.xcassets */,
+				EC5685661D221C5400C73CE0 /* LaunchScreen.storyboard */,
+				EC5685691D221C5400C73CE0 /* Info.plist */,
+			);
+			path = TakeFods;
+			sourceTree = "<group>";
+		};
+		EC5685711D221C5400C73CE0 /* TakeFodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5685721D221C5400C73CE0 /* TakeFodsTests.swift */,
+				EC5685741D221C5400C73CE0 /* Info.plist */,
+			);
+			path = TakeFodsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC5685591D221C5400C73CE0 /* TakeFods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5685771D221C5400C73CE0 /* Build configuration list for PBXNativeTarget "TakeFods" */;
+			buildPhases = (
+				EC5685561D221C5400C73CE0 /* Sources */,
+				EC5685571D221C5400C73CE0 /* Frameworks */,
+				EC5685581D221C5400C73CE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakeFods;
+			productName = TakeFods;
+			productReference = EC56855A1D221C5400C73CE0 /* TakeFods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC56856D1D221C5400C73CE0 /* TakeFodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC56857A1D221C5400C73CE0 /* Build configuration list for PBXNativeTarget "TakeFodsTests" */;
+			buildPhases = (
+				EC56856A1D221C5400C73CE0 /* Sources */,
+				EC56856B1D221C5400C73CE0 /* Frameworks */,
+				EC56856C1D221C5400C73CE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5685701D221C5400C73CE0 /* PBXTargetDependency */,
+			);
+			name = TakeFodsTests;
+			productName = TakeFodsTests;
+			productReference = EC56856E1D221C5400C73CE0 /* TakeFodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC5685521D221C5400C73CE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DevHack;
+				TargetAttributes = {
+					EC5685591D221C5400C73CE0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EC56856D1D221C5400C73CE0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EC5685591D221C5400C73CE0;
+					};
+				};
+			};
+			buildConfigurationList = EC5685551D221C5400C73CE0 /* Build configuration list for PBXProject "TakeFods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC5685511D221C5400C73CE0;
+			productRefGroup = EC56855B1D221C5400C73CE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC5685591D221C5400C73CE0 /* TakeFods */,
+				EC56856D1D221C5400C73CE0 /* TakeFodsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC5685581D221C5400C73CE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5685681D221C5400C73CE0 /* LaunchScreen.storyboard in Resources */,
+				EC5685651D221C5400C73CE0 /* Assets.xcassets in Resources */,
+				EC5685631D221C5400C73CE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC56856C1D221C5400C73CE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC5685561D221C5400C73CE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5685601D221C5400C73CE0 /* ViewController.swift in Sources */,
+				EC56855E1D221C5400C73CE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC56856A1D221C5400C73CE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5685731D221C5400C73CE0 /* TakeFodsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC5685701D221C5400C73CE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5685591D221C5400C73CE0 /* TakeFods */;
+			targetProxy = EC56856F1D221C5400C73CE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC5685611D221C5400C73CE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5685621D221C5400C73CE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC5685661D221C5400C73CE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5685671D221C5400C73CE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC5685751D221C5400C73CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC5685761D221C5400C73CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC5685781D221C5400C73CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TakeFods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.devhack.TakeFods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC5685791D221C5400C73CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TakeFods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.devhack.TakeFods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC56857B1D221C5400C73CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TakeFodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.devhack.TakeFodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeFods.app/TakeFods";
+			};
+			name = Debug;
+		};
+		EC56857C1D221C5400C73CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TakeFodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.devhack.TakeFodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeFods.app/TakeFods";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC5685551D221C5400C73CE0 /* Build configuration list for PBXProject "TakeFods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5685751D221C5400C73CE0 /* Debug */,
+				EC5685761D221C5400C73CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5685771D221C5400C73CE0 /* Build configuration list for PBXNativeTarget "TakeFods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5685781D221C5400C73CE0 /* Debug */,
+				EC5685791D221C5400C73CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC56857A1D221C5400C73CE0 /* Build configuration list for PBXNativeTarget "TakeFodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC56857B1D221C5400C73CE0 /* Debug */,
+				EC56857C1D221C5400C73CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC5685521D221C5400C73CE0 /* Project object */;
+}
