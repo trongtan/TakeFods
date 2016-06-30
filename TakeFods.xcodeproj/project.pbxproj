@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AA5452AE8DB660FF95BB1BB2 /* Pods_TakeFodsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6A49D781F6921A8A8F2DDA /* Pods_TakeFodsUITests.framework */; };
+		EC3890E31D23715000C2FD67 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC56857D1D221CE100C73CE0 /* GoogleService-Info.plist */; };
+		EC3890E51D2374AA00C2FD67 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3890E41D2374AA00C2FD67 /* FirebaseService.swift */; };
+		EC3890E81D23862F00C2FD67 /* Object+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3890E61D23862F00C2FD67 /* Object+Extension.swift */; };
+		EC3890E91D23862F00C2FD67 /* Realm+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3890E71D23862F00C2FD67 /* Realm+Extension.swift */; };
 		EC3FF8381D2271120087DECD /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3FF8371D2271120087DECD /* Restaurant.swift */; };
 		EC3FF83A1D2271C90087DECD /* RestaurantType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3FF8391D2271C90087DECD /* RestaurantType.swift */; };
 		EC3FF83C1D22728E0087DECD /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3FF83B1D22728E0087DECD /* Meal.swift */; };
@@ -52,6 +56,9 @@
 		31FEFFACBA93DD902C1B5D22 /* Pods-TakeFodsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeFodsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakeFodsUITests/Pods-TakeFodsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5B405A85FB6AFA66B8B1D5E6 /* Pods-TakeFods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeFods.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakeFods/Pods-TakeFods.release.xcconfig"; sourceTree = "<group>"; };
 		8AF37C32EDF136C05D23C3AA /* Pods-TakeFodsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeFodsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakeFodsTests/Pods-TakeFodsTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC3890E41D2374AA00C2FD67 /* FirebaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		EC3890E61D23862F00C2FD67 /* Object+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Object+Extension.swift"; sourceTree = "<group>"; };
+		EC3890E71D23862F00C2FD67 /* Realm+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Realm+Extension.swift"; sourceTree = "<group>"; };
 		EC3FF8371D2271120087DECD /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		EC3FF8391D2271C90087DECD /* RestaurantType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantType.swift; sourceTree = "<group>"; };
 		EC3FF83B1D22728E0087DECD /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
@@ -127,6 +134,23 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		EC3FF8411D22801B0087DECD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EC3890E41D2374AA00C2FD67 /* FirebaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EC3FF8441D2281090087DECD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EC3890E61D23862F00C2FD67 /* Object+Extension.swift */,
+				EC3890E71D23862F00C2FD67 /* Realm+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		EC5685511D221C5400C73CE0 = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +176,8 @@
 		EC56855C1D221C5400C73CE0 /* TakeFods */ = {
 			isa = PBXGroup;
 			children = (
+				EC3FF8441D2281090087DECD /* Extensions */,
+				EC3FF8411D22801B0087DECD /* Services */,
 				EC3FF8361D2270E40087DECD /* Models */,
 				EC56855D1D221C5400C73CE0 /* AppDelegate.swift */,
 				EC56855F1D221C5400C73CE0 /* ViewController.swift */,
@@ -324,6 +350,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3890E31D23715000C2FD67 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +501,9 @@
 			files = (
 				EC3FF83C1D22728E0087DECD /* Meal.swift in Sources */,
 				EC3FF83E1D227E660087DECD /* Portion.swift in Sources */,
+				EC3890E51D2374AA00C2FD67 /* FirebaseService.swift in Sources */,
+				EC3890E91D23862F00C2FD67 /* Realm+Extension.swift in Sources */,
+				EC3890E81D23862F00C2FD67 /* Object+Extension.swift in Sources */,
 				EC5685601D221C5400C73CE0 /* ViewController.swift in Sources */,
 				EC3FF8401D227EC50087DECD /* Tag.swift in Sources */,
 				EC56855E1D221C5400C73CE0 /* AppDelegate.swift in Sources */,

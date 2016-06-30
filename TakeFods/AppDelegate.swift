@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import RealmSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,10 +17,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-    // Override point for customization after application launch.
-    FIRApp.configure()
     return true
   }
+
+  private func setupRealm() {
+    let newschemaVersion = UInt64(currentApplicationVersion())
+    let config = Realm.Configuration(
+      schemaVersion: newschemaVersion,
+      migrationBlock: { migration, oldSchemaVersion in
+        if oldSchemaVersion < newschemaVersion {
+        }
+      }
+    )
+    Realm.Configuration.defaultConfiguration = config
+    let _ = try! Realm()
+  }
+
+  func currentApplicationVersion() -> Int {
+    let version = NSBundle.mainBundle().infoDictionary!["CFBundleShortVersionString"] as? String ?? ""
+    let build = NSBundle.mainBundle().infoDictionary!["CFBundleVersion"] as? String ?? ""
+    let stringVersion = (version + build).stringByReplacingOccurrencesOfString(".", withString: "", options: .LiteralSearch, range: nil)
+    let maxNumberOfVersionDigits = 10
+    let append = String(count: maxNumberOfVersionDigits - stringVersion.characters.count, repeatedValue: (Character("0")))
+    return Int(stringVersion + append) ?? 0
+  }
+
 
   func applicationWillResignActive(application: UIApplication) {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

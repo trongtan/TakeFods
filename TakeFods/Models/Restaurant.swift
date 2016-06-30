@@ -20,14 +20,14 @@ class Restaurant: Object, Mappable {
   dynamic var closeTime: NSDate?
   dynamic var typeRawValue = 0
 
-  var type: RestaurantType? {
-    get {
-      return try! Realm().objectForPrimaryKey(RestaurantType.self, key: typeRawValue)
-    }
-    set {
-      typeRawValue = (type != nil) ? type!.id : 0
-    }
-  }
+//  var type: RestaurantType? {
+//    get {
+//      return try! Realm().objectForPrimaryKey(RestaurantType.self, key: typeRawValue)
+//    }
+//    set {
+//      typeRawValue = (type != nil) ? type!.id : 0
+//    }
+//  }
 
   var meals = List<Meal>()
 

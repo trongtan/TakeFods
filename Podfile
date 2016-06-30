@@ -15,7 +15,8 @@ def common_pods
   pod 'SnapKit'
   pod 'AsyncSwift'
   pod 'SwiftSpinner'
-  pod 'Firebase'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
 end
 
 def testing_pods
